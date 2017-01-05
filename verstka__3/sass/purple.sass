@@ -1,0 +1,156 @@
+@import "bourbon/bourbon"
+
+$color: #8238A7 //Theme skin
+$text_color: #888
+$main_color: #222
+$bg_light: #FAFAFA
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+body
+	color: $main_color
+	+kerning(1)
+
+a
+	color: $color
+
+p,
+body .main_footer,
+.s_about li
+	color: $text_color
+
+.main_footer
+	+kerning(0)
+
+.color_element
+	color: $color
+
+.color_bg
+	background-color: $color
+
+.color_border
+	border-color: $color
+
+// .main_color-bg
+// 	background-color: $main_color
+svg
+	path
+		fill: #fff
+
+.toggl_mnu
+	background-color: $main_color
+
+.top_menu
+	a:hover
+		color: $color
+		+transition(all 0.5s ease)
+		// background-color: rgba(255,255,255,.05)
+	a
+		// letter-spacing: 5px
+
+.top_text
+  p
+    color: $bg_light
+    letter-spacing: 5px
+
+.bg_light
+	background-color: $bg_light
+	// z-index: 10
+
+
+.bg_dark
+	background-color: $main_color
+	color: #FFF
+	.s_descr::after
+		background-color: #fff
+	a
+		color: #fff
+
+.s_descr
+	+kerning(3)
+	&::after
+		background-color: black
+
+section
+	h3
+		+kerning(1)
+		color: $text_color
+
+.s_about
+	p:nth-child(even)
+		color: $color
+
+.social_wrap
+	a
+		i
+			color: $color
+
+.personal_header
+	+kerning(2)
+
+.personal_last_block
+	a
+		color: $color
+			
+.section_content
+	h3
+		color: $main_color
+		+kerning(2)
+		font-size: 16px
+		font-weight: 400
+
+.resume_icon
+	font-size: 35px
+
+.resume_year
+	background-color: $color
+	color: #fff
+	font-width: 600px
+
+.resume_item
+	h3
+		+kerning(1)
+
+.s_portfolio li
+	+kerning(1)
+	color: $text_color
+	&.active
+		color: #fff
+		border-bottom: $color 1px solid
+
+.portfolio_item .portfolio_content
+	a
+		border-color: $color
+		color: $color
+
+.section_content .contact_box .contacts_icon
+	color: $color
+
+.contact_box
+	a
+		color: $color
+
+.text-danger
+	color: $color
+
+form 
+	input:focus,
+	textarea:focus
+		border: 1px solid $color
+		+kerning(1)
+	button
+		background-color: $color
+		+kerning(1)
+
+form 
+	input,
+	textarea
+		+kerning(1)
+
+form
+	.form-group
+		+kerning(1)
+		color: $text_color
+
+

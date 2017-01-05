@@ -1,0 +1,125 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #8238A7; }
+
+p,
+body .main_footer,
+.s_about li {
+  color: #888; }
+
+.main_footer {
+  letter-spacing: 0px; }
+
+.color_element {
+  color: #8238A7; }
+
+.color_bg {
+  background-color: #8238A7; }
+
+.color_border {
+  border-color: #8238A7; }
+
+svg path {
+  fill: #fff; }
+
+.toggl_mnu {
+  background-color: #222; }
+
+.top_menu a:hover {
+  color: #8238A7;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+.top_text p {
+  color: #FAFAFA;
+  letter-spacing: 5px; }
+
+.bg_light {
+  background-color: #FAFAFA; }
+
+.bg_dark {
+  background-color: #222;
+  color: #FFF; }
+  .bg_dark .s_descr::after {
+    background-color: #fff; }
+  .bg_dark a {
+    color: #fff; }
+
+.s_descr {
+  letter-spacing: 3px; }
+  .s_descr::after {
+    background-color: black; }
+
+section h3 {
+  letter-spacing: 1px;
+  color: #888; }
+
+.s_about p:nth-child(even) {
+  color: #8238A7; }
+
+.social_wrap a i {
+  color: #8238A7; }
+
+.personal_header {
+  letter-spacing: 2px; }
+
+.personal_last_block a {
+  color: #8238A7; }
+
+.section_content h3 {
+  color: #222;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 400; }
+
+.resume_icon {
+  font-size: 35px; }
+
+.resume_year {
+  background-color: #8238A7;
+  color: #fff;
+  font-width: 600px; }
+
+.resume_item h3 {
+  letter-spacing: 1px; }
+
+.s_portfolio li {
+  letter-spacing: 1px;
+  color: #888; }
+  .s_portfolio li.active {
+    color: #fff;
+    border-bottom: #8238A7 1px solid; }
+
+.portfolio_item .portfolio_content a {
+  border-color: #8238A7;
+  color: #8238A7; }
+
+.section_content .contact_box .contacts_icon {
+  color: #8238A7; }
+
+.contact_box a {
+  color: #8238A7; }
+
+.text-danger {
+  color: #8238A7; }
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #8238A7;
+  letter-spacing: 1px; }
+
+form button {
+  background-color: #8238A7;
+  letter-spacing: 1px; }
+
+form input,
+form textarea {
+  letter-spacing: 1px; }
+
+form .form-group {
+  letter-spacing: 1px;
+  color: #888; }
