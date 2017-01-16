@@ -126,9 +126,24 @@ body {
           .aside_content nav ul li a:hover {
             background-color: tomato;
             margin-left: 10px; }
+<<<<<<< HEAD
           .aside_content nav ul li a i {
             margin-right: 18px;
             margin-left: -47px; }
+=======
+          .aside_content nav ul li a::before {
+            font-family: "linea-basic-10" !important;
+            font-size: 18px;
+            margin-right: 17px;
+            margin-left: -45px;
+            vertical-align: middle; }
+        .aside_content nav ul li:nth-child(1) a::before {
+          content: "o"; }
+        .aside_content nav ul li:nth-child(2) a::before {
+          content: "{"; }
+        .aside_content nav ul li:nth-child(3) a::before {
+          content: "R"; }
+>>>>>>> b48a7de9b9cd378c24b17c5bb15a0d7db4ad22b2
 
 .loader {
   background: none repeat scroll 0 0 #ffffff;
@@ -141,7 +156,7 @@ body {
   width: 100%;
   z-index: 9999; }
   .loader .loader_inner {
-    background-image: url("../img/preloader.gif");
+    background-image: url("img/preloader.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
