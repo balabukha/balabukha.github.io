@@ -127,7 +127,7 @@ body {
             background-color: tomato;
             margin-left: 10px; }
           .aside_content nav ul li a::before {
-            font-family: "linea-basic-10";
+            font-family: "linea-basic-10" !important;
             font-size: 18px;
             margin-right: 17px;
             margin-left: -45px;
@@ -150,7 +150,7 @@ body {
   width: 100%;
   z-index: 9999; }
   .loader .loader_inner {
-    background-image: url("../img/preloader.gif");
+    background-image: url("img/preloader.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
