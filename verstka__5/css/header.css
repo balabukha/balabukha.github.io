@@ -1,7 +1,7 @@
 body {
   font-size: 1.25em;
   line-height: 1.375em;
-  font-family: "RalewayRegular", helvetica, arial;
+  font-family: "RalewayRegular";
   font-weight: normal;
   min-width: 320px;
   position: relative;
@@ -126,18 +126,9 @@ body {
           .aside_content nav ul li a:hover {
             background-color: tomato;
             margin-left: 10px; }
-          .aside_content nav ul li a::before {
-            font-family: "linea-basic-10";
-            font-size: 18px;
-            margin-right: 17px;
-            margin-left: -45px;
-            vertical-align: middle; }
-        .aside_content nav ul li:nth-child(1) a::before {
-          content: "o"; }
-        .aside_content nav ul li:nth-child(2) a::before {
-          content: "{"; }
-        .aside_content nav ul li:nth-child(3) a::before {
-          content: "R"; }
+          .aside_content nav ul li a i {
+            margin-right: 18px;
+            margin-left: -47px; }
 
 .loader {
   background: none repeat scroll 0 0 #ffffff;
