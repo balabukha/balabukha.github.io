@@ -1,5 +1,6 @@
 body {
   font-size: 15px;
+  max-width: 100%;
   line-height: 1.375em;
   font-family: "RalewayRegular";
   font-weight: normal;
